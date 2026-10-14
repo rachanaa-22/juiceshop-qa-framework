@@ -31,3 +31,20 @@ def test_item_can_be_added_to_basket(api, new_user):
 
     products = api.get_basket().json()["data"]["Products"]
     assert any(product["id"] == 1 for product in products)
+
+@pytest.mark.api
+def test_single_product_has_name_and_price(api):
+    response = api.get_product(1)
+    assert response.ok
+    product = response.json()["data"]
+    assert product["name"]
+    assert product["price"] > 0
+
+
+@pytest.mark.api
+def test_single_product_has_name_and_price(api):
+    response = api.get_product(1)
+    assert response.ok
+    product = response.json()["data"]
+    assert product["name"]
+    assert product["price"] > 0
