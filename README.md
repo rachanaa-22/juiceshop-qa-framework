@@ -1,5 +1,10 @@
 # juiceshop-qa-framework
 
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![Playwright](https://img.shields.io/badge/tested%20with-Playwright-45ba4b)
+![pytest](https://img.shields.io/badge/framework-pytest-0A9EDC)
+![Docker](https://img.shields.io/badge/app%20under%20test-Docker-2496ED)
+
 Playwright + Python test automation framework for [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/), built with pytest.
 
 ## What's inside
