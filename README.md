@@ -48,6 +48,8 @@ conftest.py Shared fixtures
 
 ## Roadmap
 
-- [ ] Network mocking, accessibility and visual regression tests
+- [x] Network mocking tests
+- [ ] Accessibility and visual regression tests
 - [ ] GitHub Actions CI pipeline
 - [ ] Allure report published to GitHub Pages
+
